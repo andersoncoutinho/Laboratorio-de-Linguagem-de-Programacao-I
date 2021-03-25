@@ -25,7 +25,7 @@ int main(void) {
     cin >> dia;
     cin >> mes;
     cin >> ano;
-
+    
     data.setDia(dia);
     data.setMes(mes);
     data.setAno(ano);
