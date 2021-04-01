@@ -25,7 +25,6 @@ Data3::Data3(int dia, int mes, int ano) {
     } else {
         this->ano = ano;
     }
-
 }
 
 int Data3::getDaysMonth(int mes) {

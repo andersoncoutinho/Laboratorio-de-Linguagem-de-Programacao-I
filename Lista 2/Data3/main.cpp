@@ -12,7 +12,7 @@ int main(void) {
     cin >> mes;
     cin >> ano;
     cin >> avancos;
-
+    
     Data3 data(dia, mes, ano);
 
     while(avancos--) {

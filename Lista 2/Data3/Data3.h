@@ -4,8 +4,9 @@
 using namespace std;
 
 class Data3 {
-
+    
     public:
+        Data3();
         Data3(int, int, int);
         void avancarDia();
         int getDaysMonth(int);
