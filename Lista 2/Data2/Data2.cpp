@@ -8,7 +8,7 @@ Data2::Data2() {
 }
 
 void Data2::printData() {
-    string nomeDoMes;
+   std::string nomeDoMes;
 
     switch (mes)
     {

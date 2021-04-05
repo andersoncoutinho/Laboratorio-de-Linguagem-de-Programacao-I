@@ -6,8 +6,8 @@ string identificarAnimal(string);
 
 int main(void) {
 
-    string resposta;
-    string dadosDoAnimal = "";
+   std::string resposta;
+   std::string dadosDoAnimal = "";
 
     for(int i = 0; i < 5; i++) {
         cin >> resposta;

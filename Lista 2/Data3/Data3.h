@@ -10,9 +10,9 @@ class Data3 {
         Data3(int, int, int);
         void avancarDia();
         int getDaysMonth(int);
-        string getDia();
-        string getMes();
-        string getAno();
+       std::string getDia();
+       std::string getMes();
+       std::string getAno();
         void setDia(int);
         void setMes(int);
         void setAno(int);
