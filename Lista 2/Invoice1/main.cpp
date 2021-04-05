@@ -6,11 +6,12 @@ int main(void) {
 
     Invoice fatura1;
     Invoice fatura2;
-    string nome;
+    std::string nome;
 
     fatura1.descricao = "oi";
 
     std::cin >> fatura1.numero;
+    getchar();
     std::getline(std::cin, fatura1.descricao);
     
     std::cin >> fatura1.qtdComprada;
@@ -24,6 +25,7 @@ int main(void) {
     }
 
     std::cin >> fatura2.numero;
+    getchar();
     std::getline(std::cin, fatura2.descricao);
     
     std::cin >> fatura2.qtdComprada;

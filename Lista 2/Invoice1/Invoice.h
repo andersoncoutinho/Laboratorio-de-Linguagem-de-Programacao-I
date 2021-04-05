@@ -3,15 +3,13 @@
 
 #include <iostream>
 
-using namespace std;
-
 class Invoice {
 
     public:
         int numero;
-        string descricao;
+        std::string descricao;
         int qtdComprada;
-        int preco;
+        double preco;
         double getInvoiceAmount();
 };
 
