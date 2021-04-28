@@ -34,11 +34,12 @@ int main(void) {
     
     if(pos != -1) {
         cout << controle.getPagamento(pos).getNomeDoFuncionario() << ": R$ "
-            << controle.getPagamento(pos).getValorPagamento() << endl
-            << "Total: R$ " << controle.calculaTotalDePagamentos() << endl; 
+            << controle.getPagamento(pos).getValorPagamento() << endl;
     } else {
         cout << nome << " não encontrado(a)." << endl;
     }
+    
+    cout << "Total: R$ " << controle.calculaTotalDePagamentos() << endl; 
 
     return 0;
 }
