@@ -33,6 +33,5 @@ int main(void) {
         delete pessoas[i];
     }
 
-    
     return 0;
 }
